@@ -1,16 +1,61 @@
 <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Go Live Server - Proyecto</title>
-        <link rel="stylesheet" href="/style/styles.css">
-    </head>
-    <body>
-        <h1>¡Bienvenido a Go Live Server!</h1>
-        <p>Tu servidor de desarrollo está funcionando correctamente.</p>
-        <p>Edita este archivo en <code>views/index.html</code> para comenzar.</p>
-        
-    </body>
-    </html>
-      
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EmoLyrics - Go Live Redirect</title>
+    <meta http-equiv="refresh" content="1; url=http://localhost:5000/" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        background: #09090b;
+        color: #f4f4f5;
+        font-family: 'Manrope', -apple-system, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      .card {
+        background: rgba(24, 24, 27, 0.85);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 24px;
+        padding: 40px;
+        text-align: center;
+        max-width: 460px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      }
+      h1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.8rem;
+        margin: 12px 0 8px;
+        color: #fff;
+      }
+      p {
+        color: #a1a1aa;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 24px;
+      }
+      .btn {
+        display: inline-block;
+        background: #ffffff;
+        color: #000000;
+        font-weight: 700;
+        font-family: 'Outfit', sans-serif;
+        padding: 12px 24px;
+        border-radius: 12px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div style="font-size: 2.8rem;">🎵</div>
+      <h1>EmoLyrics Live Server</h1>
+      <p>Connecting to your active EmoLyrics development server...</p>
+      <a href="http://localhost:5000/" class="btn">Open http://localhost:5000</a>
+    </div>
+  </body>
+</html>

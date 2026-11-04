@@ -1,0 +1,22 @@
+{
+  "name": "song-lyrics-emotion-classification",
+  "version": "1.0.0",
+  "description": "EmoLyrics - Advanced Song Lyrics Mood & Emotion Classification Platform",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [
+    "emotion-classification",
+    "lyrics-analysis",
+    "nlp",
+    "music-mood",
+    "react",
+    "express"
+  ],
+  "author": "Larana Inc. / Chandrima Chawdhury & Team",
+  "license": "MIT"
+}
